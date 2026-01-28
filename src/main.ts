@@ -1,4 +1,7 @@
 import { helloWorld } from "./bases/helloWorld";
+import { typeBoolean } from "./bases/typeBoolean";
+import { typeDataIntro } from "./bases/typeDataIntro";
+import { typeNumber } from "./bases/typeNumber";
 import "./style.css";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
@@ -8,3 +11,6 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 `;
 
 helloWorld();
+typeDataIntro();
+typeBoolean();
+typeNumber();
