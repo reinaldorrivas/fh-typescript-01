@@ -3,6 +3,8 @@ export const typeNumber = (): void => {
 
   const villians: number = 20;
 
+  console.log({ avengers, villians });
+
   /*
    * Si no se definiera un tipo de dato para avengers, daría un error porque posiblemente
    * la variable pudiera ser undefined y eso no permite una comparación válida entre números.

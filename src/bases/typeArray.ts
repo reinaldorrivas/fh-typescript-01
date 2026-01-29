@@ -6,6 +6,12 @@ export const TypeArray = (): void => {
 
   const villains: string[] = ["Omega Rojo", "Dormammu", "Duende Verde"];
 
+  console.log("🚀 ~ TypeArray ~ villains:", villains);
+
+  console.log(
+    "Se usó la función inbuilt .forEach para transformar cada valor del array a mayúsculas",
+  );
+
   villains.forEach((villiain) => {
     console.log(villiain.toUpperCase());
   });
