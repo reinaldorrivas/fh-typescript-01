@@ -1,4 +1,4 @@
-export const typeEnum = () => {
+export const typeEnum = (): void => {
   /*
    * Permite definir un conjunto de nombres significativos asociados a valores constantes
    * (numéricos por defecto) dentro del contexto de un módulo o programa. Se utiliza para

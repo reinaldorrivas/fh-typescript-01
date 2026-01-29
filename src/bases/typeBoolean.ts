@@ -1,4 +1,4 @@
-export const typeBoolean = () => {
+export const typeBoolean = (): void => {
   let isSuperman: boolean = true;
   let isSuperHero: boolean;
 

@@ -1,4 +1,4 @@
-export const typeAny = () => {
+export const typeAny = (): void => {
 
   let a: any = 123;
 

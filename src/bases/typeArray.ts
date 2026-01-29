@@ -1,4 +1,4 @@
-export const TypeArray = () => {
+export const TypeArray = (): void => {
   const numbersWithStrings: (string | number)[] = [1, 2, "3", 4, 5];
   const numbers: number[] = [1, 2, 3, 4, 5];
 

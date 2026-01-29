@@ -10,11 +10,11 @@ export const typeDataIntro = () => {
    */
   let b: string;
 
-  b = "René Rivas";
+  b = "Hola";
 
   console.log({ a, b });
 
-  sayHello("Hola");
+  sayHello(b);
 
     console.log("--- END TYPE DATA INTRO ---");
 };

@@ -1,4 +1,4 @@
-export const typeNumber = () => {
+export const typeNumber = (): void => {
   let avengers: number = 10;
 
   const villians: number = 20;

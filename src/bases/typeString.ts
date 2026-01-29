@@ -1,4 +1,4 @@
-export const typeString = () => {
+export const typeString = (): void => {
   const batman = "Batman";
   const greenLantern = "Green Lantern";
   const drManhatthan = "Dr. Manhattan";
