@@ -16,7 +16,6 @@
 
     /* Linting */
     "alwaysStrict": true,
-    "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
